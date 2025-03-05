@@ -1,5 +1,6 @@
-package io.github.wckq.customer;
+package io.github.wckq.customer.model;
 
+import io.github.wckq.customer.CustomerType;
 import io.github.wckq.person.Person;
 
 /**

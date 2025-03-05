@@ -3,7 +3,7 @@ package io.github.wckq.cashier.queue.view;
 import io.github.wckq.Main;
 import io.github.wckq.cashier.queue.CashierQueueController;
 import io.github.wckq.cashier.queue.CashierQueueRepository;
-import io.github.wckq.customer.Customer;
+import io.github.wckq.customer.model.Customer;
 import io.github.wckq.customer.CustomerRepository;
 import io.github.wckq.gui.CustomButton;
 import io.github.wckq.gui.CustomLabel;

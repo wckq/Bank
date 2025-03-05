@@ -1,4 +1,6 @@
-package io.github.wckq.cashier.user;
+package io.github.wckq.cashier.user.controller;
+
+import io.github.wckq.cashier.user.CashierUserRepository;
 
 public class CashierUserController {
 

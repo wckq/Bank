@@ -3,10 +3,10 @@ package io.github.wckq.gui;
 import io.github.wckq.cashier.queue.CashierQueueController;
 import io.github.wckq.cashier.queue.CashierQueueRepository;
 import io.github.wckq.cashier.queue.view.QueueCashierUI;
-import io.github.wckq.cashier.user.CashierUserController;
+import io.github.wckq.cashier.user.controller.CashierUserController;
 import io.github.wckq.cashier.user.CashierUserRepository;
-import io.github.wckq.cashier.user.gui.CashierUserUI;
-import io.github.wckq.customer.CustomerController;
+import io.github.wckq.cashier.user.view.CashierUserUI;
+import io.github.wckq.customer.controller.CustomerController;
 import io.github.wckq.customer.CustomerRepository;
 import io.github.wckq.customer.view.CustomerUI;
 

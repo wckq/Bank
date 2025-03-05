@@ -1,5 +1,7 @@
 package io.github.wckq.customer;
 
+import io.github.wckq.customer.model.Customer;
+
 import java.util.ArrayList;
 import java.util.List;
 

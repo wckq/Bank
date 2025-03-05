@@ -1,6 +1,6 @@
 package io.github.wckq.cashier.queue;
 
-import io.github.wckq.customer.Customer;
+import io.github.wckq.customer.model.Customer;
 
 import java.util.LinkedList;
 import java.util.Queue;

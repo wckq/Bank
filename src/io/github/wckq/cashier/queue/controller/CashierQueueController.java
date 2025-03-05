@@ -1,10 +1,8 @@
-package io.github.wckq.cashier.queue;
+package io.github.wckq.cashier.queue.controller;
 
-import io.github.wckq.customer.Customer;
+import io.github.wckq.cashier.queue.CashierQueueRepository;
 import io.github.wckq.customer.CustomerType;
-
-import java.util.List;
-import java.util.Queue;
+import io.github.wckq.customer.model.Customer;
 
 public class CashierQueueController {
 

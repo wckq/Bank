@@ -1,8 +1,8 @@
-package io.github.wckq.cashier.user.gui;
+package io.github.wckq.cashier.user.view;
 
 import io.github.wckq.Main;
-import io.github.wckq.cashier.user.CashierUser;
-import io.github.wckq.cashier.user.CashierUserController;
+import io.github.wckq.cashier.user.model.CashierUser;
+import io.github.wckq.cashier.user.controller.CashierUserController;
 import io.github.wckq.cashier.user.CashierUserRepository;
 import io.github.wckq.gui.CustomButton;
 import io.github.wckq.gui.CustomLabel;

@@ -1,4 +1,4 @@
-package io.github.wckq.cashier.user;
+package io.github.wckq.cashier.user.model;
 
 import io.github.wckq.person.Person;
 

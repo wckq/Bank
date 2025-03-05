@@ -1,5 +1,7 @@
 package io.github.wckq.cashier.user;
 
+import io.github.wckq.cashier.user.model.CashierUser;
+
 import java.util.ArrayList;
 import java.util.List;
 
