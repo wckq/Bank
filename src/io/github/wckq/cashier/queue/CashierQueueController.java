@@ -14,6 +14,12 @@ public class CashierQueueController {
         this.cashierQueueRepository = cashierQueueRepository;
     }
 
+    /**
+     * Adds a customer to the specified queue.
+     *
+     * @param customer the customer to add
+     * @param customerType the type of the customer
+     */
     public void addCustomer(Customer customer, CustomerType customerType) {
         switch (customerType) {
             case NORMAL -> this.cashierQueueRepository.getBasicCustomers().add(customer);
@@ -23,6 +29,12 @@ public class CashierQueueController {
         }
     }
 
+    /**
+     * Removes a customer from the specified queue.
+     *
+     * @param customer the customer to remove
+     * @param customerType the type of the customer
+     */
     public void removeCustomer(Customer customer, CustomerType customerType) {
         switch (customerType) {
             case NORMAL -> this.cashierQueueRepository.getBasicCustomers().remove(customer);

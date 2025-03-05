@@ -13,6 +13,9 @@ import io.github.wckq.customer.view.CustomerUI;
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 
+/**
+ * The main menu of the application.
+ */
 public class Menu extends JFrame {
 
     private final JPanel panel;
